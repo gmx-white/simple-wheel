@@ -1,0 +1,38 @@
+.container {
+  width: 500px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid #333333;
+  overflow: hidden;
+  position: relative;
+  /* background-color: #bfc; */
+
+}
+.sub-container {
+  position: relative;
+  left: 0;
+  width: 1000px;
+  transition: left 2s;
+
+}
+.right-arrow, .left-arrow {
+  display: block;
+  height: 100%;
+  line-height: 28px;
+  width: 24px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  background-color: #fff;
+  z-index: 999;
+  border: 1px solid #efefef;
+}
+
+.left-arrow {
+  display: none;
+  left: 0;
+}
+.right-arrow {
+  right: 0;
+}
