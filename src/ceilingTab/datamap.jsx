@@ -11,7 +11,7 @@ export const menu = [
     },
     {
         name: 'tab3',
-        key: '4',
+        key: '3',
         color: 'yellow'
     },
     {

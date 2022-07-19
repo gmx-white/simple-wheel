@@ -13,7 +13,7 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <MyUpload/>
+      {/* <MyUpload/> */}
       {/* <MyDatePicker/> */}
       {/* <SlideBtn data={data}/> */}
       {/* <Echarts></Echarts> */}
