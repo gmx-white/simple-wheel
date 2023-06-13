@@ -76,11 +76,11 @@ const MyUpload = (props) => {
         onChange={handleChange}
       >
         {
-          fileList && fileList.length >= 1 ? null : (
-            <div>
+          // fileList && fileList.length >= 1 ? null : (
+          //   <div>
               <PlusOutlined />
-            </div>
-          )
+          //   </div>
+          // )
         }
       </Upload>
       <Modal

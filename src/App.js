@@ -4,20 +4,17 @@ import MyUpload from './upload'
 // import SlideBtn from './slidebtn'
 // import {data} from './datamap'
 // import Echarts from './echarts'
-import CeilingTab from './ceilingTab'
+// import CeilingTab from './ceilingTab'
 import './App.css'
-
-
-
 
 function App() {
   return (
     <div className="App">
-      {/* <MyUpload/> */}
+      <MyUpload/>
       {/* <MyDatePicker/> */}
       {/* <SlideBtn data={data}/> */}
       {/* <Echarts></Echarts> */}
-      <CeilingTab />
+      {/* <CeilingTab /> */}
     </div>
   )
 }
